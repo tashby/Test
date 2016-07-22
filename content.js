@@ -1,1 +1,2 @@
-module.exports = "It works from content.js.";
+import React from 'react';
+import 
