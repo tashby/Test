@@ -1,32 +1,31 @@
-var webpack = require('webpack');
 var path = require('path');
 
+var webpack = require('webpack');
+
+var packageData = require('./package.json');
+
+var filename = [packageData.name, packageData.version, 'js'];
+
 module.exports = {
-    devtool: 'inline-source-map',
-    entry: [
-        'webpack-dev-server/client?http://127.0.0.1:8080/',
-        'webpack/hot/only-dev-server',
-        //'./src'
-    ],
+    entry: path.resolve(index.jsx, packageData.main),
     output: {
-        path: path.join(__dirname, 'public'),
-        filename: 'bundle.js'
+        path: path.resolve(index.js, 'build'),
+        filename: filename.join('.'),
     },
-    resolve: {
-        modulesDirectories: ['node_modules', 'src'],
-        extensions: ['', '.js']
-    },
+    devtool: 'source-map',
     module: {
         loaders: [
-        {
-            test: /\.jsx?$/,
-            exclude: /node_modules/,
-            loaders: ['react-hot', 'babel?presets[]=react,presets[]=es2015']
-        }
+            {
+                test: /\.jsx?$/,
+                exclude: /(node_modules)/,
+                loader: 'babel',
+                query: {
+                    presets: ['es2015', 'react']
+                }
+            }
         ]
     },
-    plugins: [
-        new webpack.HotModuleReplacementPlugin(),
-        new webpack.NoErrorsPlugin()
-    ]
+    resolve: {
+        extensions: ['', '.js', '.jsx']
+    },
 };
