@@ -15,6 +15,8 @@ export default class App extends Person.jsx{
 	render(){
 
 		<div>
+			<p> <p />
+		<div />
 	}
 
 }
