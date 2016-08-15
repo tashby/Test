@@ -19,10 +19,7 @@ const UserWidget = (props) => (
           primaryText={props.user.cell}
           secondaryText={
             <p>
-              <span style={{color: darkBlack}}>{props.user.name.first} {props.user.name.last}</span> --
-              {props.user.location.city}
-              <FontIcon onClick={props.deleteUser} className="material-icons" style={iconStyles} color={red500}>delete_forever</FontIcon>
-            </p>
+              
           }
           secondaryTextLines={2}
         />
