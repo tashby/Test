@@ -1,23 +1,52 @@
-import React from 'react';
-import { render } from 'react-dom';
-import ContactsList from './ContactsList';
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
+import UserWidget from './components/UserWidget';
+import $ from 'jquery'
 
-let contacts = {
-	name:'Scott',
-	phone:'555 555 5555'
+class App extends Component {
+
+  constructor() {
+    super();
+    this.state = {
+      users: [],
+      loaded: false,
+
+    }
+  }
+
+  componentDidMount() {
+    const apiUrl = 'http://api.randomuser.me/?results=5';
+
+    $.ajax({
+     url: apiUrl,
+     dataType: 'json',
+     cache: false,
+     success: (response) => {
+       this.setState({ users: response.results, 
+        loaded: true,
+
+        })
+     },
+     error: (xhr, status, err) => {
+       console.log(err)
+     }
+   })
+  }
+
+  deleteUser(cell) {
+    // TODO: Delete a user from this.state.users & return the users
+    this.onClick(cell);
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <div className="App-header"></div>
+        {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
+      </div>
+    );
+  }
 }
 
-class App extends React.Component {
-	render() {
-			consolelog(this.props.contacts)
-			return (
-<div>
-	<h1>ContactsList</h1>
-	<ContactsList contacts= {this.props.contacts} />
-
-</div>
-				)
-	}	
-}
-
-React.render(<ContactsList />, document.getElementById('app'));
+export default App;
