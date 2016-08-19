@@ -19,7 +19,14 @@ const UserWidget = (props) => (
           primaryText={props.user.cell}
           secondaryText={
             <p>
-              
+            this.user.cell.onclick({
+              return (
+                <div>testing</div>
+              )
+
+            })
+              </p> 
+            }
           }
           secondaryTextLines={2}
         />
