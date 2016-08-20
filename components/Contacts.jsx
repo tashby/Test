@@ -35,10 +35,7 @@ const UserWidget = (props) => (
   </div>
 );
 
-const Delete = (cell) => (
-function onClick ({})
-this.user.cell 
-);
+
 
 UserWidget.PropTypes = {
   user: React.PropTypes.object,
