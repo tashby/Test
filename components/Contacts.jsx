@@ -15,21 +15,7 @@ const UserWidget = (props) => (
   <div>
       <List>
         <ListItem
-          leftAvatar={<Avatar src={props.user.picture.thumbnail} />}
-          primaryText={props.user.cell}
-          secondaryText={
-            <p>
-            this.user.cell.onclick({
-              return (
-                <div>testing</div>
-              )
-
-            })
-              </p> 
-            }
-          }
-          secondaryTextLines={2}
-        />
+        
         <Divider inset={true} />
       </List>
   </div>
