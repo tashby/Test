@@ -23,9 +23,3 @@ const UserWidget = (props) => (
 
 
 
-UserWidget.PropTypes = {
-  user: React.PropTypes.object,
-  deleteUser: React.PropTypes.func
-}
-
-export default UserWidget;
