@@ -37,6 +37,8 @@ class App extends Component {
   deleteUser(cell) {
     // TODO: Delete a user from this.state.users & return the users
     this.onClick(cell);
+    this.user.cell (
+      return)
   }
 
   render() {
