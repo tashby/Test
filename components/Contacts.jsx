@@ -11,15 +11,5 @@ const iconStyles = {
   marginRight: 24,
 };
 
-const UserWidget = (props) => (
-  <div>
-      <List>
-        <ListItem
-        <div></div>
-        <Divider inset={true} />
-      </List>
-  </div>
-);
-
 
 
