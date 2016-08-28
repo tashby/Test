@@ -42,7 +42,10 @@ class App extends Component {
         {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
       </div>
       <div className= "testing">
-      this.state.users.onclick{}
+      this.state.users.onclick{
+
+        {=> UserWidget key = user.cell.map}
+      }
 
       </div>
     );
