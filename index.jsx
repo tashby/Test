@@ -43,7 +43,10 @@ class App extends Component {
       </div>
   ß
 
-
+      <div className="App">
+        <div className="App-header"></div>
+        {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
+      </div>
       </div>
     );
   }
