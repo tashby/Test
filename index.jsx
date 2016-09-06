@@ -34,7 +34,24 @@ class App extends Component {
    })
   }
 
+omponentDidMount() {
+    const apiUrl = 'http://api.randomuser.me/?results=5';
 
+    $.ajax({
+     url: apiUrl,
+     dataType: 'json',
+     cache: false,
+     success: (response) => {
+       this.setState({ users: response.results, 
+        loaded: true,
+
+        })
+     },
+     error: (xhr, status, err) => {
+       console.log(err)
+     }
+   })
+  }
   render() {
     return (
       <div className="App">
