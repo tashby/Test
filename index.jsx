@@ -41,9 +41,7 @@ omponentDidMount() {
      url: apiUrl,
      dataType: 'json',
      cache: false,
-     success: (response) => {
-       this.setState({ users: response.results, 
-        loaded: true,
+  
 
         })
      },
