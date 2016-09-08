@@ -40,15 +40,6 @@ omponentDidMount() {
     $.ajax({
      url: apiUrl,
      dataType: 'json',
-     cache: false,
-  
-
-        })
-     },
-     error: (xhr, status, err) => {
-       console.log(err)
-     }
-   })
   }
   render() {
     return (
