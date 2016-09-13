@@ -44,12 +44,7 @@ class App extends Component {
   ß
 
       <div className="App">
-        <div className="App-header"></div>
-        {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
-      </div>
-      </div>
-    =
-
+      
 
       <div> this.state.users.map((user)) => <UserWidget>
     );
