@@ -34,6 +34,12 @@ class App extends Component {
    })
   }
 
+  error: (xhr, status, err) => {
+
+    console.log(error2);
+    loaded :true;
+  }
+
 
   render() {
     return (
