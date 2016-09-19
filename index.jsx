@@ -38,6 +38,8 @@ class App extends Component {
 
     console.log(error2);
     loaded :true;
+    error: (xhr, status, eerr)
+    
   }
 
 
