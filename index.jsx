@@ -52,7 +52,9 @@ class App extends Component {
 
 
 <div>
-twitter feed div</div>
+twitter feed div
+<p>feed</p>
+</div>
     );
   }
 }
