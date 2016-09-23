@@ -54,11 +54,7 @@ class App extends Component {
 <div>
 twitter feed div
 <p>feed</p>
-</div>
-<p> user lists<p>
-this.userlists.users.map(user)
-    );
-  }
+<
 }
 
 export default App;
