@@ -51,10 +51,6 @@ class App extends Component {
       </div>
 
 
-<div>
-twitter feed div
-<p>feed</p>
-<
-}
+
 
 export default App;
