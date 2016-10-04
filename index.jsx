@@ -92,6 +92,9 @@ class App extends Component {
         {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
 
 
+div className="App-header"></div>
+        {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
+
 
 
 export default App;
