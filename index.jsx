@@ -125,5 +125,9 @@ https://scotch.io
 div className="App-header"></div>
         {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
 https://scotch.io
+div className="App-header"></div>
+        {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
+https://scotch.io
+
 
 export default App;
