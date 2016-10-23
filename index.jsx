@@ -106,34 +106,5 @@ div className="App-header"></div>
 
 div className="App-header"></div>
         {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
-div className="App-header"></div>
-        {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
-
-div className="App-header"></div>
-        {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
-div className="App-header"></div>
-        {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
-div className="App-header"></div>
-        {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
-div className="App-header"></div>
-        {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
-div className="App-header"></div>
-        {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
-https://scotch.iodiv className="App-header"></div>
-        {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
-https://scotch.io
-div className="App-header"></div>
-        {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
-https://scotch.io
-div className="App-header"></div>
-        {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
-https://scotch.io
-
-https://scotch.io
-div className="App-header"></div>
-        {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
-https://scotch.io
-iv className="App-header"></div>
-        {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
-https://scotch.io
+          
 export default App;
