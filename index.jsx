@@ -47,6 +47,10 @@ class App extends Component {
     console.log(error2);
     loaded :true;
     e
+ console.log(error2);
+    loaded :true;
+    e
+A.
 
 
 
