@@ -14,6 +14,13 @@ class App extends Component {
 
     }
   }
+  constructor() {
+    super();
+    this.state = {
+      users: [],
+      loaded: false,
+
+    }
 
   componentDidMount() {
     const apiUrl = 'http://api.randomuser.me/?results=5';
