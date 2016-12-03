@@ -118,5 +118,5 @@ div className="App-header"></div>
 div className="App-header"></div>
         {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
               iv className="App-header"></div>
-        {this.state.users.map((user) => <Us   
+
 export default App;
