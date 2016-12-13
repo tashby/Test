@@ -128,5 +128,8 @@ div className="App-header"></div>
 div className="App-header"></div>
         {this.state.users.map((user) => <U      div classdget key={user.cell} user={user} /> )}
 div className="App-header"></div>
+        {this.state.users.map((user) => <Udiv className="App-header"></div>
+        {this.state.users.map((user) => <U      div classdget key={user.cell} user={user} /> )}
+div className="App-header"></div>
         {this.state.users.map((user) => <U
 export default App;
