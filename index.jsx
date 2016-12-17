@@ -66,32 +66,7 @@ class App extends Component {
 A.
 
 
-  error: (xhr, status, err) => {
-
-    console.log(error2);
-    loaded :true;
-    e
- console.log(error2);
-    loaded :true;
-    e
-A.
-  error: (xhr, status, err) => {
-
-    console.log(error2);
-    loaded :true;
-    e
- console.log(error2);
-    loaded :true;
-    e
-A.  error: (xhr, status, err) => {
-
-    console.log(error2);
-    loaded :true;
-    e
- console.log(error2);
-    loaded :true;
-    e
-A.
+  
   render() {
     return (
       <div className="App">
