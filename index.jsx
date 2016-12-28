@@ -104,6 +104,16 @@ A.
         <div className="App-header"></div>
 
   
+
+<div className="App-header"></div>
+        {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
+      </div><div className="App-header"></div>
+        {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
+      </div>    {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
+
+      <div className="App">
+        <div className="App-header"></div>
+
  
 div className="App-header"></div>
         {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
