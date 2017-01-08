@@ -108,7 +108,4 @@ export default App;
       iv classdget key={user.cell} user={user} /> )}
 div classdget key={user.cell} user={user} /> )}
  
-        {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
-      iv classdget key={user.cell} user={user} /> )}
-ajax.divclassname = "applead"
 export default App;
