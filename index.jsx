@@ -132,7 +132,30 @@ div classdget key={user.cell} user={user} /> )}
 div className="App-header"></div>
    div classdget key={user.cell} user={user} /> )}
 div className="App-header"></div>
+    className="App-header"></div>
+        {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
+      iv classdget key={user.cell} user={user} /> )}
+div classdget key={user.cell} user={user} /> )}
+
+div classdget key={user.cell} user={user} /> )}
+div className="App-header"></div>
+   div classdget key={user.cell} user={user} /> )}
+div className="App-header"></div>
+   div classdget key={user.cell} user={user} /> )}
+div className="App-header"></div>
+   div classdget key={user.cell} user={user} /> )}
+div className="App-header"></div>
+ className="App-header"></div>
+        {this.state.users.map((user) => <UserWidget key={user.cell} user={user} /> )}
+      iv classdget key={user.cell} user={user} /> )}
+div classdget key={user.cell} user={user} /> )}
+
+div classdget key={user.cell} user={user} /> )}
+div className="App-header"></div>
+   div classdget key={user.cell} user={user} /> )}
+div className="App-header"></div>
    
+
 
 
 export default App;
