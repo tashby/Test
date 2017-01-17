@@ -54,23 +54,7 @@ class App extends Component {
    })
   }
 
-  error: (xhr, status, err) => {
 
-    console.log(error2);
-    loaded :true;
-    e
-
-  }
-  
-  error: (xhr, status, err) => {
-
-    console.log(error2);
-    loaded :true;
-    e
- console.log(error2);
-    loaded :true;
-    e
-A.
 
 
   
