@@ -10,6 +10,7 @@ import {red500, yellow500, blue500} from 'material-ui/styles/colors';
 const iconStyles = {
   marginRight: 24,
   marginLeft:,
+material-ui
 };
 
 
