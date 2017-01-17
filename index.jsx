@@ -20,18 +20,6 @@ class App extends Component {
       users: [],
       loaded: false,
 
-    } constructor() {
-    super();
-    this.state = {
-      users: [],
-      loaded: false,
-
-    }
-        } constructor() {
-    super();
-    this.state = {
-      users: [],
-      loaded: false,
 
     }
 
