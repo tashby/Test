@@ -25,6 +25,15 @@ class App extends Component {
       loaded: false,
 
     }
+  }class App extends Component {
+
+  constructor() {
+    super();
+    this.state = {
+      users: [],
+      loaded: false,
+
+    }
   }
 class App extends Component {
 
