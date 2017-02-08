@@ -22,7 +22,7 @@ class App extends Component {
     super();
     this.state = {
       users: [],
-      loaded: false,
+      loaded: true,
 
     }
 class App extends Component {
