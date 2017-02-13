@@ -33,6 +33,15 @@ class App extends Component {
       users: [],
       loaded: true,
 
+    }    }
+class App extends Component {
+
+  constructor() {
+    super();
+    this.state = {
+      users: [],
+      loaded: true,
+
     }
   }class App extends Component {
 
